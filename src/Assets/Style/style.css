@@ -1,0 +1,82 @@
+.Main {
+    width: 100%;
+    height: 100vh;
+}
+
+.Footer {
+    background-color: #000000;
+    padding: 20px 40px;
+    margin-top: auto;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Logo-1 {
+    width: 120px;
+}
+.FooterLinks{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+}
+.Logo {
+    width: 80px;
+    
+}
+.Social-icon{
+    width: 25px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.Cards-Holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+.Gallery-title h1 {
+    text-align: center;
+    font-weight: 700;
+    width: max-content;
+}
+
+.Gallery-title {
+    justify-content: center;
+    display: flex;
+
+}
+
+.Cards-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.Fruit-card {
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(230, 230, 230);
+    background-color: white;
+    width: 250px;
+    height: auto;
+
+}
+
+.Fruit-card-img img {
+
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Fruit-card-title {
+    margin: 2%;
+    font-weight: 600;
+    text-align: center;
+}
